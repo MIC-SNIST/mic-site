@@ -322,15 +322,15 @@ export default function Home() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="relative z-10"
+          className="relative z-10 text-center sm:text-left"
         >
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-cyan-300/[0.06] px-3.5 py-2 text-xs font-medium text-cyan-200 sm:mb-8 sm:px-4 sm:text-sm">
+          <div className="mx-auto mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-300/20 bg-cyan-300/[0.06] px-3.5 py-2 text-xs font-medium text-cyan-200 sm:mx-0 sm:mb-8 sm:px-4 sm:text-sm">
             <Sparkles size={15} />
             <span>Explore. Build. Innovate.</span>
             <span className="h-1.5 w-1.5 rounded-full bg-cyan-300" />
           </div>
 
-          <div className="mb-4 space-y-2 sm:mb-5">
+          <div className="mx-auto mb-4 max-w-2xl space-y-2 sm:mx-0 sm:mb-5">
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-blue-300 sm:text-sm sm:tracking-[0.2em]">
               Sreenidhi Institute of Science and Technology
             </p>
@@ -339,7 +339,7 @@ export default function Home() {
             </p>
           </div>
 
-          <h1 className="max-w-4xl text-[2.65rem] font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl xl:text-7xl">
+          <h1 className="mx-auto max-w-4xl text-[2.65rem] font-extrabold leading-[1.05] tracking-tight sm:mx-0 sm:text-5xl lg:text-6xl xl:text-7xl">
             Machine
             <br className="sm:hidden" /> Intelligence
             <span className="block bg-gradient-to-r from-blue-400 via-cyan-300 to-teal-200 bg-clip-text text-transparent">
@@ -351,7 +351,7 @@ export default function Home() {
             Think Beyond. Build Intelligence.
           </p>
 
-          <p className="mt-5 max-w-xl text-sm leading-7 text-slate-400 sm:mt-6 sm:text-lg sm:leading-8">
+          <p className="mx-auto mt-5 max-w-xl text-sm leading-7 text-slate-400 sm:mx-0 sm:mt-6 sm:text-lg sm:leading-8">
             A community of curious minds exploring Artificial Intelligence,
             Machine Learning, and new ideas through hands-on projects,
             technical sessions, and collaboration.
@@ -382,7 +382,7 @@ export default function Home() {
 
           <a
             href="#about"
-            className="mt-8 inline-flex items-center gap-2 text-xs text-slate-500 transition-colors hover:text-cyan-300 sm:mt-12 sm:text-sm"
+            className="mx-auto mt-8 inline-flex items-center gap-2 text-xs text-slate-500 transition-colors hover:text-cyan-300 sm:mx-0 sm:mt-12 sm:text-sm"
           >
             Discover what we do
             <ArrowDown size={15} />
